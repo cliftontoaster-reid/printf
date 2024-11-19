@@ -12,7 +12,7 @@ OBJS = $(SRCS:.c=.o)
 
 # Compiler and flags
 CC = clang
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -O3 -ffast-math
 INCLUDES = -I$(INCLUDES_DIR)
 
 # Rules
